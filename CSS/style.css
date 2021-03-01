@@ -68,8 +68,35 @@ header {
     background-color:black;
     padding: 0px;
     width: 450px;
+    max-height: 450px;
     margin-top: 50px;
+    position:relative;
 } 
+
+.card img { 
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card h4, p { 
+    position:absolute;
+    top:16px;
+    left:16px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+.card p { 
+    position:absolute;
+    top:64px;
+    left:16px;
+}
+/*
+.pic-container { 
+    background-color: rgba(0, 0, 0, 0.466);
+}*/
+
+
 
 #card { 
     justify-content:center;
@@ -77,8 +104,8 @@ header {
 
 img { 
     filter: grayscale(100%);
-    width: 100%;
-    position: relative;
+    /* width: 100%; */
+    /* position: relative; */
 }
 
 img:hover { 
@@ -120,6 +147,7 @@ img:hover {
 
  .container {
     display: flex; /* or inline-flex */
+    /* flex-wrap: wrap; */
   }
 
 
@@ -161,3 +189,10 @@ a.icon:hover {
     color: orange;
    }
 
+
+
+
+   /* questions 
+   - how to lay over text over the pictures?
+   - how to cut the pictures into squares?
+   */
