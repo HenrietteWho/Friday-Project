@@ -66,9 +66,10 @@ header {
 
 .card { 
     background-color:black;
-    padding: 0px;
+    padding: 10px;
+    padding-top: 20px;
     width: 32%;
-    max-height: 450px;
+    height: 300px;
     margin-top: 50px;
     position:relative;
 } 
@@ -77,7 +78,6 @@ header {
     height: auto;
     width: 100%;
     object-fit: scale-down;
-    border-radius: 50%;
 }
 
 .card h4, p { 
